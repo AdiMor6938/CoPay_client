@@ -30,7 +30,7 @@ const toggleVisibility = (item) => {
     item.isVisible() ? item.hide() : item.show();
 }
 
-const TransactionsPage = () => {
+const StatisticsPage = () => {
     return (
         <PieChart
             id="pie"
@@ -55,5 +55,5 @@ const TransactionsPage = () => {
         </PieChart>);
 }
 
-export default TransactionsPage;
+export default StatisticsPage;
 

@@ -14,9 +14,9 @@ import MenuItem from '@mui/material/MenuItem';
 import logo from '../../assets/images/CoPay_logo_update_project.png'
 
 const pages = ['Main', 'Transactions', 'Statistics', 'Scanner', 'Notifications', "Manager"];
-const settings = ['Log In'];
+const settings = ['Change account type (user/admin)'];
 
-const TopAppBar = ({setPage}) => {
+const TopAppBar = ({setPage, isAdmin, setIsAdmin}) => {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
     const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -34,6 +34,8 @@ const TopAppBar = ({setPage}) => {
 
     const handleCloseUserMenu = () => {
         setAnchorElUser(null);
+        setIsAdmin(!isAdmin);
+
     };
 
     return (
@@ -109,7 +111,7 @@ const TopAppBar = ({setPage}) => {
                         <Tooltip title="Open settings">
                             <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                                 {/*TODO: Need to set an image*/}
-                                <Avatar alt="Adi Mor"/>
+                                <Avatar  alt="Adi Mor"/>
                             </IconButton>
                         </Tooltip>
                         <Menu
