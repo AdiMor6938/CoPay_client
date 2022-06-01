@@ -46,11 +46,11 @@ const TransactionsPage = ({isAdmin=false}) => {
                         </Typography>
                     </Paper>
                 </Grid>}
-            <Grid xs={12} style={{backgroundColor:'purple'}}>
+            <Grid xs={12} style={{backgroundColor:'blueviolet'}}>
                 Waiting for approve: <br/>
                 <WaitingForApprovalTable />
             </Grid>
-            <Grid xs={12} style={{backgroundColor:'pink'}}>
+            <Grid xs={12} style={{backgroundColor:'blueviolet'}}>
                 Last transactions: <br/>
                 <WaitingForApprovalTable />
             </Grid>

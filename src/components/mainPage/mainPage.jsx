@@ -29,7 +29,7 @@ const MainPage = () => {
                         Transaction Level Controls
                     </Typography>
                     <Typography variant={"body2"} style={{padding:'10%'}}>
-                        Transaction level controls allow you to define when, <br/>where and how the virtual cards can be used. You can set and define it according to your company’s policies or preferences and manage your spending more effectively.
+                        Transaction level controls allow you to define when, <br/>where and how the cards can be used. You can set and define it according to your company’s policies or preferences and manage your spending more effectively.
                     </Typography>
 
                 </Paper>
@@ -40,10 +40,11 @@ const MainPage = () => {
                     <img alt={'CoPayLogo'} src={VisibilityImage} style={{ width:'150px', height:'150px'}}></img>
 
                     <Typography variant={"h5"}>
-                        Transaction Level Controls
+                        Optimize Payments
                     </Typography>
                     <Typography variant={"body2"} style={{padding:'10%'}}>
-                        Gain access to up-to-date information for your reconciliation, monitor key suppliers’ spending or generate reports such as your company’s spending pattern.
+
+                        CoPay’s intelligent optimizations can help you identify where your team can save money on duplicate subscriptions, unused licenses, and even suggest cheaper alternatives
                     </Typography>
 
                 </Paper>
@@ -53,10 +54,10 @@ const MainPage = () => {
                 <Paper elevation={12} style ={{display: 'flex', justifyContent: 'flex-start', flexDirection: 'column', alignContent: 'center', alignItems: "center"}}>
                     <img alt={'CoPayLogo'} src={MachineControlImage} style={{ width:'150px', height:'150px'}}></img>
                     <Typography variant={"h5"}>
-                        Easy to control
+                        Seamlessly Sync Payments With Your ERP
                     </Typography>
                     <Typography variant={"body2"} style={{padding:'10%'}}>
-                        Connect to sap.
+                        Free up your team from manual time-wasters like data entry by syncing every transaction directly with your ERP, saving you a ton of time closing your books every month
                     </Typography>
                 </Paper>
             </Fade>
